@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>操作视频播放</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- 动态背景 -->
+  <div class="background"></div>
+
+  <!-- 视频播放框 -->
+  <div class="video-container">
+    <video id="mainVideo" controls>
+      <source src="video.mp4" type="video/mp4">
+      您的浏览器不支持视频播放。
+    </video>
+    <div class="video-overlay">
+      <h1>欢迎观看视频</h1>
+      <button id="playButton">播放视频</button>
+    </div>
+  </div>
+
+  <!-- 交互提示 -->
+  <div class="hint">北京莱森泰克科技有限公司www.laisen.com</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
